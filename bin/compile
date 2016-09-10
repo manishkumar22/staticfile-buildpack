@@ -8,6 +8,7 @@ set -o pipefail   # do not ignore exit codes when piping output
 # Configure directories
 build_dir=$1
 cache_dir=$2
+echo "Inside compile file created by Manish"
 
 compile_buildpack_dir=$(cd $(dirname $0); cd ..; pwd)
 compile_buildpack_bin=$compile_buildpack_dir/bin
